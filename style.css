@@ -1,0 +1,254 @@
+body{
+    background-color: black;
+    text-shadow: 1px 1px black;
+    color: white;
+    font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+
+}
+
+#home-img{
+    width: 100%;
+    
+}
+
+.main{
+        border-bottom: 10px solid #282727;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+
+    
+}
+
+.tl{
+    position: absolute;
+   top: 30px;
+    left: 50px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+}
+
+.tr {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.button{
+    color: white;
+    background-color: red;
+    padding:5px 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+    
+}
+
+.centered h1{
+    
+    text-align: center;
+    font-weight: bold;
+    margin:5px;
+    font-size: 60px;
+}
+
+.centered h4{
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+
+    
+}
+
+.eip{
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    border: none;
+}
+
+.button1{
+    color: white;
+    background-color: red;
+    padding:5px 15px;
+    height: 50px;
+    border: none;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.centered h3{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.second .s1{
+    width:38%;
+    float: left;
+    padding: 80px 100px;  
+    font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+}
+
+.second .s2{
+    width:40%;
+    float: right;
+    padding-right: 50px;
+}
+
+.s2 img{
+    height:400px;
+}
+
+.s1 h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.s1 h2{
+    font-size: 30px;
+    font-weight: none;
+}
+
+
+.third .t1{
+    width:40%;
+    float: right;
+    padding: 80px 100px;   
+    font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+}
+
+.third .t2{
+    width:38%;
+    float: left;
+    padding-right: 50px;
+}
+
+.t2 img{
+    height:400px;
+}
+
+.t1 h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.t1 h2{
+    font-size: 30px;
+    font-weight: none;
+}
+
+
+
+.fourth .f1{
+    width:38%;
+    float: left;
+    padding: 80px 100px;    
+    font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+}
+
+.fourth .f2{
+    width:40%;
+    float: right;
+    padding-right: 50px;
+}
+
+.f2 img{
+    height:400px;
+}
+
+.f1 h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.f1 h2{
+    font-size: 30px;
+    font-weight: none;
+}
+
+.fifth h1{
+    font-size: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.fifth{
+    position: relative;
+}
+
+.b{
+    text-align: center;
+    
+}
+
+.b button{
+    width: 65%;
+    height:80px;
+    font-size: 26px;
+    margin: 5px;
+    background: #303030;
+    border: none;
+    color:white;
+    text-align: left;
+    padding: 23px 20px 25px 25px;
+    
+}
+
+.fi1{
+    text-align: center;
+}
+
+.fi1 button{
+    font-size: 24px;
+    border: none;
+    margin: 0px;
+    padding: 5px 20px;
+    
+}
+
+.fi1 input{
+    border: none;
+    margin: 0px;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 80%;
+    color: #6d7575;
+    font-size: 14px;
+
+}
+
+.footer p{
+    
+    margin-left: 40px;
+}
+
+.list_item{
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
