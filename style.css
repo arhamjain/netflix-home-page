@@ -7,12 +7,12 @@ body{
 }
 
 #home-img{
-    width: 100%;
+    max-width: 100%;
     
 }
 
 .main{
-        border-bottom: 10px solid #282727;
+    border-bottom: 10px solid #282727;
 
 }
 
@@ -25,10 +25,10 @@ body{
 
 .tl{
     position: absolute;
-   top: 30px;
+    top: 30px;
     left: 50px;
     color: red;
-    font-size: 40px;
+    font-size:4vw;
     font-weight: bold;
     font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
 }
@@ -45,7 +45,7 @@ body{
     padding:5px 10px;
     border: 1px solid red;
     border-radius: 4px;
-    font-size: 24px;
+    font-size: 2vw;
 }
 
 .centered {
@@ -64,19 +64,19 @@ body{
     text-align: center;
     font-weight: bold;
     margin:5px;
-    font-size: 60px;
+    font-size: 4vw;
 }
 
 .centered h4{
     margin: 0px;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
 
     
 }
 
 .eip{
-    font-size: 20px;
+    font-size: 2vw;
     width: 500px;
     height: 50px;
     border: none;
@@ -89,23 +89,30 @@ body{
     height: 50px;
     border: none;
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 .centered h3{
     margin: 10px 0px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 
+@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px){
+div.s1{
+      padding: 80px 100px;  
+   
+}
+}
 
 .second .s1{
-    width:38%;
+     width:38%;
     float: left;
-    padding: 80px 100px;  
     font-family:"Helvetica Neue" , Helvetica, Arial, sans-serif;
+    
 }
+
 
 .second .s2{
     width:40%;
@@ -114,16 +121,16 @@ body{
 }
 
 .s2 img{
-    height:400px;
+    max-width:100%;
 }
 
 .s1 h1{
-    font-size: 55px;
+    font-size: 4vw;
     margin-bottom: 5px;
 }
 
 .s1 h2{
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: none;
 }
 
@@ -142,16 +149,16 @@ body{
 }
 
 .t2 img{
-    height:400px;
+    max-width:100%;
 }
 
 .t1 h1{
-    font-size: 55px;
+    font-size: 4vw;
     margin-bottom: 5px;
 }
 
 .t1 h2{
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: none;
 }
 
@@ -171,16 +178,16 @@ body{
 }
 
 .f2 img{
-    height:400px;
+    max-width:100%;
 }
 
 .f1 h1{
-    font-size: 55px;
+    font-size: 4vw;
     margin-bottom: 5px;
 }
 
 .f1 h2{
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: none;
 }
 
